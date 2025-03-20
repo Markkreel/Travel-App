@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Travel App
+
+A modern travel application built with Next.js that showcases beautiful destinations, camping experiences, and travel features. The app provides an intuitive interface for exploring travel locations, viewing camping sites, and accessing travel guides.
+
+## Features
+
+- Interactive travel destination exploration
+- Camping site showcases
+- Travel guides and features
+- Mobile-responsive design
+- Modern UI with animations
+
+## Tech Stack
+
+- [Next.js 14](https://nextjs.org) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - Static type checking
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components
+- [Lucide Icons](https://lucide.dev/) - Beautiful open-source icons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd travel-app
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Starts the development server
+- `npm run build` - Creates an optimized production build
+- `npm start` - Runs the production server
+- `npm run lint` - Runs ESLint for code linting
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/               # Next.js app directory
+├── components/        # React components
+│   └── ui/            # UI components
+├── constants/         # Constants and configuration
+├── lib/               # Utility functions
+├── public/            # Static assets
+└── styles/            # Global styles
+```
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
